@@ -1,14 +1,14 @@
-DNA = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
+dna_string = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
 # Change A's to filler
-NewDNA1 = DNA.replace('A' , 'Z')
+dna_string = dna_string.replace('A' , 'Z')
 # Change T's to A's 
-NewDNA2 = NewDNA1.replace('T' , 'A')
+dna_string = dna_string.replace('T' , 'A')
 #Change the filler Z to T's
-NewDNA3 = NewDNA2.replace('Z' , 'T')
+dna_string = dna_string.replace('Z' , 'T')
 # Change C's to filler X
-NewDNA4 = NewDNA3.replace('C' , 'X')
+dna_string = dna_string.replace('C' , 'X')
 # Change G's to C's
-NewDNA5 = NewDNA4.replace('G' , 'C')
+dna_string = dna_string.replace('G' , 'C')
 # Change filler X to G's
-NewDNA6 = NewDNA5.replace('X' , 'G')
-print(NewDNA6)
+dna_string = dna_string.replace('X' , 'G')
+print(dna_string)
