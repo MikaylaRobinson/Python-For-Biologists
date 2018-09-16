@@ -1,5 +1,5 @@
 """
-This program can find the AT content of a DNA sequence.
+Find the AT content of a given DNA sequence.
 """
 my_dna = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
 

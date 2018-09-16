@@ -1,5 +1,5 @@
 """
-This program can make the complementary DNA sequence of the given DNA. 
+Make the complementary DNA sequence of a given DNA strand. 
 """
 
 dna_string = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
