@@ -1,3 +1,6 @@
+"""
+This program can find the AT content of a DNA sequence.
+"""
 my_dna = "ACTGATCGATTACGTATAGTATTTGCTATCATACATATATATCGATGCGTTCAT"
 
 # Find length of the DNA strand
