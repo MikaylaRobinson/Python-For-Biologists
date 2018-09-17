@@ -8,7 +8,7 @@ GENOMIC_DNA ="ATCGATCGATCGATCGACTGACTAGTCATAGCTATGCATGTAGCTACTCGATCGATCGA TCGATC
 exon_one = GENOMIC_DNA[0:62]
 
 # Extract the second exon
-exon_two = GENOMIC_DNA[90:1000]
+exon_two = GENOMIC_DNA[90:]
 
 #Print the exons combined 
 print(exon_one + exon_two)
