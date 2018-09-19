@@ -10,7 +10,6 @@ output_file = open("output.txt", "w")
 
 # Set the it to treat each line of DNA sequences separately 
 for dna in input_file:
-    
     # Trim each DNA sequence
     trimmed_dna = dna[14:]
     
@@ -19,8 +18,3 @@ for dna in input_file:
 
     # Write the trimmed sequences to the output file
     output_file.write(trimmed_dna)
-
-
-
-
-
