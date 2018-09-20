@@ -14,6 +14,7 @@ def find_aa_percent(protein, amino_acid=['A', 'I', 'L', 'M', 'F', 'W', 'Y', 'V']
     percentage = total * 100 / length_of_protein
     return percentage
 
+# Test function
 assert find_aa_percent("MSRSLLLRFLLFLLLLPPLP", ["M"]) == 5
 assert find_aa_percent("MSRSLLLRFLLFLLLLPPLP", ['M', 'L']) == 55
 assert find_aa_percent("MSRSLLLRFLLFLLLLPPLP", ['F', 'S', 'L']) == 70
