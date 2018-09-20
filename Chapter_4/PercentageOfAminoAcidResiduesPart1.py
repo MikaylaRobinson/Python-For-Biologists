@@ -6,7 +6,7 @@ def find_aa_percent(protein, amino_acid):
     protein = protein.upper()
     aa_count = protein.count(amino_acid.upper())
     length_of_protein = len(protein)
-    percentage = aa_count / length_of_protein * 100
+    percentage = aa_count * 100 / length_of_protein
     return percentage
 
 # Test the function
