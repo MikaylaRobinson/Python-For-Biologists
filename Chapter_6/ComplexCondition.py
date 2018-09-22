@@ -9,5 +9,5 @@ for gene in gene_data:
     sequence = fields[1]
     gene_name = fields[2]
     expression_level = fields[3]
-    if gene_name.startswith("k") or gene_name.startswith("h") and not species_name == "Drosophila melanogaster":
+    if (gene_name.startswith("k") or gene_name.startswith("h")) and not species_name == "Drosophila melanogaster":
         print(gene_name)
