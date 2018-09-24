@@ -5,8 +5,10 @@ import re
 dna_info = open("dna.txt")
 dna = dna_info.read()
 
-# Find cut sites for AbcI
+# Make a list to store cut locations and the start/end of the sequence
 cut_locations = [0]
+
+# Find cut sites for AbcI
 first_recognition_site = re.finditer(r"A[ACGT]TAAT", dna)
 for match in first_recognition_site:
     site_start = match.start()
